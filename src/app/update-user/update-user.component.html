@@ -1,0 +1,93 @@
+<html>
+  <form>
+    <div style="text-align-last: right; padding-right: 45%">
+      <h1>Update Player</h1>
+
+      <label><b>Name</b></label
+      >&nbsp;&nbsp;&nbsp;&nbsp;
+      <input
+        style="text-align-last: start"
+        type="text"
+        name="name"
+        id="name"
+        #name
+        value="{{ data.name }}"
+      /><br />
+      <label><b>Matches</b></label
+      >&nbsp;
+      <input
+        style="text-align-last: start"
+        type="number"
+        name="matches"
+        id="matches"
+        value="{{ data.matches }}"
+      /><br />
+
+      <label><b>Innings</b></label
+      >&nbsp;
+      <input
+        style="text-align-last: start"
+        type="number"
+        name="innings"
+        id="innings"
+        value="{{ data.innings }}"
+      /><br />
+      <label><b>Runs</b></label
+      >&nbsp;
+      <input
+        style="text-align-last: start"
+        type="number"
+        name="runs"
+        id="runs"
+        value="{{ data.runs }}"
+      /><br />
+      <label><b>Balls Faced</b></label
+      >&nbsp;
+      <input
+        style="text-align-last: start"
+        type="number"
+        name="ballsFaced"
+        id="ballsFaced"
+        value="{{ data.ballsFaced }}"
+      /><br />
+      <label><b>Batting Strike Rate</b></label
+      >&nbsp;
+      <input
+        style="text-align-last: start"
+        type="number"
+        name="battingStrikeRate"
+        id="battingStrikeRate"
+        step="0.01"
+        value="{{ data.battingStrikeRate }}"
+      /><br />
+      <label><b>Hundreds Scored</b></label
+      >&nbsp;
+      <input
+        style="text-align-last: start"
+        type="number"
+        name="hundredsScored"
+        id="hundredsScored"
+        value="{{ data.hundredsScored }}"
+      /><br />
+      <label><b>Fifties Scored</b></label
+      >&nbsp;
+      <input
+        style="text-align-last: start"
+        type="number"
+        name="fiftiesScored"
+        id="fiftiesScored"
+        value="{{ data.fiftiesScored }}"
+      /><br />
+      <label><b>Boundary Fours</b></label
+      >&nbsp;
+      <input
+        style="text-align-last: start"
+        type="number"
+        name="boundaryFours"
+        id="boundaryFours"
+        value="{{ data.boundaryFours }}"
+      /><br /><br />
+      <button type="submit" style="margin-right: 6%">Update</button>
+    </div>
+  </form>
+</html>
